@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426441658734",
+    "project_id": "sinventors-40b9f",
+    "storage_bucket": "sinventors-40b9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426441658734:android:9425a893bb57b1122fb17f",
+        "android_client_info": {
+          "package_name": "com.example.sinventors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426441658734-qi49jpljl1gqpvbe64it7e21odncfp63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaW0fO7ZMc_mztj7k42e9Cz7FXPsY1opE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426441658734-qi49jpljl1gqpvbe64it7e21odncfp63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+name: sinventors
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.0
+  auto_size_text: ^2.1.0
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.2+1
+  intl: ^0.16.1
+  fragment_navigate: ^1.1.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.8.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: "icon/icon.png" 
+  android: true
+
+

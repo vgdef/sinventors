@@ -1,35 +1,20 @@
-//import 'package:sinventors/splashscreen_view.dart';
-import 'package:sinventors/Beranda.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
-void main() {
-  runApp(MyApp());
-}
+import 'package:sinventors/Screens/Welcome/welcome_screen.dart';
+import 'package:sinventors/constants.dart';
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
- 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return new MaterialApp(
-      title: 'SInventors',
-      theme: new ThemeData(
-        primarySwatch: Colors.deepPurple,
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'RSUP Dr. J Leimena',
+      theme: ThemeData(
+        primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: Colors.white,
       ),
-      home: new Beranda(),
+      home: WelcomeScreen(),
     );
-      
   }
 }
-
-  // run App(MaterialApp(
-  //   debugShowCheckedModeBanner: false,
-  //   title: 'Splash Screen',
-  //   home: SplashScreenPage(),
-  // ));

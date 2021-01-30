@@ -12,7 +12,7 @@ class DrawerItem {
   DrawerItem(this.title, this.icon);
 }
 
-class MyApp extends StatelessWidget {
+class HomePage extends StatelessWidget {
   final drawerItems = [
     new DrawerItem("Daftar Barang", Icons.rss_feed),
     new DrawerItem("Distribusi Barang", Icons.local_activity),
